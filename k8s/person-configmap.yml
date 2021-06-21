@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: person-env
+data:
+  PORT: "80"
+  DATABASE_HOST: batyr.db.elephantsql.com
+  DATABASE_USER: blcpsvkl
+  DATABASE_DATABASE: blcpsvkl
+  DATABASE_PASSWORD: vzMKwenQBJv2l3oZffuWLGNaKizWwhMB
+  WALLET_API: http://wallet-api-svc
